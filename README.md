@@ -17,5 +17,10 @@ cd STATS-21
 git remote add upstream https://github.com/henry-liev/STATS-21.git
 git remote -v
 ```
+4. When I upload new discussion notebooks, run
+```
+git pull upstream main
+```
+to pull the new notebook.
 
 When you complete a discussion notebook, rename it in case I push a change that overwrites your notebook
